@@ -11,6 +11,7 @@ int main()
     scanf("%d\n%d", &a,&b);
       // Complete the code.
     for(int i=a;i<=b;i++){
+      //從a的直到b的值（包括邊界），使用if else印出數字的英文，並如果超過9的話也會判斷是整數還是偶數
         if(i==1){
             printf("one\n");
         }
